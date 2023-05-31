@@ -1,0 +1,6 @@
+com\codingnomad\simplebootrest\BookDBController.class
+com\codingnomad\simplebootrest\models\Book.class
+com\codingnomad\simplebootrest\BookController.class
+com\codingnomad\simplebootrest\dao\BookRepository.class
+com\codingnomad\simplebootrest\dao\BookService.class
+com\codingnomad\simplebootrest\SimplebootrestApplication.class
