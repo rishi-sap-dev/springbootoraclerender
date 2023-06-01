@@ -84,3 +84,20 @@ http://localhost:8080/dbbook/4
 
 
 -----------------------
+Render:
+https://springbootoraclerender.onrender.com/dbbooks
+
+Post:
+https://springbootoraclerender.onrender.com/dbbooks
+{
+    "title": "RenderBook",
+    "author": "PuneAuthor"
+}
+
+RESPONSE:
+200 OK
+{
+    "id": 81,
+    "title": "RenderBook",
+    "author": "PuneAuthor"
+}

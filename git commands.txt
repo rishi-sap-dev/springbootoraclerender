@@ -53,8 +53,18 @@ https://stackoverflow.com/questions/69525199/openjdk-java-17-docker-image
 https://github.com/marketplace/actions/docker-build-push-action
 
 
+---------------------------------
+Local docker without hub
+
+
+
+
 
 --------------------------------
+
+https://www.youtube.com/watch?v=ek-kOz6kJbU&t=7s
+https://javawhizz.com/2023/03/host-a-spring-boot-application-for-free-on-render
+
 Render
 Render@1000
 
@@ -74,3 +84,20 @@ git push -u origin master
 java -jar springbootoraclerender-0.0.1-SNAPSHOT.jar
 
 java -jar "C:\ui5\javaapps\springbootoraclerender-0.0.1-SNAPSHOT.jar"
+
+-Important points :
+https://stackoverflow.com/questions/11943948/what-causes-unable-to-access-jarfile-error
+
+ - make sure you dnt mention jar ( as it will be .jar.jar)
+
+- to run it with higher JDK , as my machine was set as
+C:\Users\risha\Documents\intellijava\springbootoraclerender>echo %JAVA_HOME%
+C:\Program Files\Java\jdk-11.0.11
+
+but spring project was on 17.
+
+So in Intellij SDK was set to SDK20.
+and to run jar file locally:
+ -> goto bin of JDK and run there :
+ C:\Program Files\Java\jdk-20_windows-x64_bin\jdk-20\bin>java -jar "C:\ui5\javaapps\springbootoraclerender-0.0.1-SNAPSHOT.jar"
+

@@ -1,0 +1,4 @@
+FROM openjdk:17-oracle
+EXPOSE 8080
+ADD target/springbootoraclerender-0.0.1-SNAPSHOT.jar springbootoraclerender.jar
+ENTRYPOINT ["java","-jar","/springbootoraclerender.jar"]
